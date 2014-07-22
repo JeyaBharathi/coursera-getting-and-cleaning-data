@@ -2,7 +2,6 @@ setwd("~/datascience/3. Obtaining Data/Project/")
 training = read.csv("UCI HAR Dataset/train/X_train.txt", sep="", header=FALSE)
 training[,562] = read.csv("UCI HAR Dataset/train/Y_train.txt", sep="", header=FALSE)
 training[,563] = read.csv("UCI HAR Dataset/train/subject_train.txt", sep="", header=FALSE)
-
 testing = read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
 testing[,562] = read.csv("UCI HAR Dataset/test/Y_test.txt", sep="", header=FALSE)
 testing[,563] = read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE)
